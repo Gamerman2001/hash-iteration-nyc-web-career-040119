@@ -12,7 +12,8 @@ end
 
 def age_appropriate_birthday(birthday_kids)
   birthday_kids.each do | kid, age|
-    if 
+    if age <= 12
+      puts "Happy Birthday #{kid}! you are now #{age} years old!"
   end 
 end 
 
